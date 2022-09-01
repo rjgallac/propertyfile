@@ -1,0 +1,16 @@
+
+management:
+  security:
+    enabled: false
+endpoints:
+  info:
+    path: /api/status
+  health:
+    path: /api/health
+
+
+props:
+  prop: "test"
+
+props2:
+  prop: "prop2"
